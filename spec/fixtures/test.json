@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "ip_address": {
+      "oneOf":[
+        {
+          "format":"ipv4",
+          "type":"string"
+        },
+        {
+          "format":"ipv6",
+          "type":"string"
+        }
+      ]
+    }
+  }
+}
